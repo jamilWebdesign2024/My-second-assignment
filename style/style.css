@@ -27,7 +27,12 @@ body{
     font-size: 1.25rem;
     font-weight: 500;
 }
-
+.text-primary{
+   font-size: 0.9rem; 
+   color: #666666;
+   line-height: 1.5rem;
+   font-weight: 600;
+}
 /* color shared */
 
 .color-01{
@@ -97,6 +102,70 @@ ul li a{
     background-color: black;
 }
 
+/* curriculam styles */
+.curriculam{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 3.75rem;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.curriculam-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+}
+.curriculam-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 1.25rem;
+    padding: 2.2rem;
+}
+.curriculam-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.one{
+    background-image: linear-gradient(to top, white, #DEF5FF);
+    border: 1px solid rgba(222, 245, 255, 1);
+}
+.two{
+    background-image: linear-gradient(to top, white, #FFF4DC);
+    border: 1px solid rgba(255, 244, 220, 1);
+}
+.three{
+    background-image: linear-gradient(to top, white, #F2E8FF);
+    border: 1px solid rgba(242, 232, 255, 1);
+}
+.curriculam-cart-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0 2rem 0;
+}
+.read-more{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart-01{
+    margin-top: 2.25rem;
+    margin-bottom: 2.8rem;
+}
+    
+.cart-02{
+    margin-top: 2.25rem;
+    margin-bottom: 2.8rem;
+}
+.cart-03{
+    margin-top: 2.5rem;
+    margin-bottom: 2.8rem;
+}
+
+
+
 
 
 
@@ -141,6 +210,28 @@ ul li a{
     .banner-content{
         width: 100%;
         margin: 1rem;
+    }
+    .banner-description{
+        padding: 10px;
+    }
+    .curriculam{
+        width: 100%;
+
+    }
+    .curriculam-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 85%;
+        margin: 0 auto;
+    }
+    .curriculam-card{
+        width: 95%;
+        gap: 10px;
+        margin-left: 10px;
+        /* padding: 1rem; */
+    }
+    .curriculam{
+        width: 100%;
     }
     
     
