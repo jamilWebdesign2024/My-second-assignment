@@ -108,7 +108,7 @@ ul li a{
 
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 600px){
     .nav-links,
     .logo-title,
     .btn-primary{
@@ -118,7 +118,7 @@ ul li a{
         display: block;
     }
     .navbar{
-        margin: 10px 10px;
+        margin: 15px 15px;
     }
     header{
         border: 1px solid orange;
