@@ -105,6 +105,9 @@ ul li a{
 
 
 
+
+
+
 @media screen and (max-width: 576px){
     .nav-links,
     .logo-title,
@@ -119,7 +122,7 @@ ul li a{
     }
     .banner-section,
     .banner-btn{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 20px;
         text-align: center;
     }
@@ -130,7 +133,6 @@ ul li a{
     
    .banner-img img{
         width: 80%;
-        flex-direction: column-reverse;
     }
     .banner-content{
         width: 100%;
