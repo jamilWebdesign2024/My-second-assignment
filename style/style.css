@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", serif;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    padding: 15px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.text-color-primary{
+    color: rgba(17, 17, 17, 1);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* color shared */
+
+.color-01{
+    color: orange;
+}
+.color-02{
+    color: skyblue;
+}
+.color-03{
+    color: rgba(5, 212, 223, 1);
+}
+.color-04{
+    color: rgba(93, 88, 239, 1);
+}
+
+
+
+/* header styles */
+header{
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 130px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.logo-div{
+    align-items: center;
+}
+.logo-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.menubar-links{
+    font-size: 2rem;
+    display: none;
+}
+/* banner styles */
+.banner-section{
+    align-items: center;
+    justify-self: center;
+    gap: 300px;
+}
+.banner-content{
+    width: 640px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+.banner-description{
+    margin-bottom: 1.5rem;
+}
+.banner-btn{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+    .nav-links,
+    .logo-title,
+    .btn-primary{
+    display: none;
+    }
+    .menubar-links{
+        display: block;
+    }
+    header{
+        margin: 10px 10px;
+    }
+    .banner-section,
+    .banner-btn{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .banner-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    
+   .banner-img img{
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        margin: 1rem;
+    }
+    
+    
+}
