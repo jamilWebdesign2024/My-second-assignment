@@ -285,6 +285,14 @@ ul li a{
     margin-top: 5rem;
     margin-bottom: 3.8rem;
 }
+marquee{
+    border: 1px solid black;
+    background-color: rgb(99, 0, 79);
+    color: rgb(249, 249, 249);
+    font-size: 1.2rem;
+    direction: right;
+    
+}
 
 
 
@@ -324,6 +332,10 @@ ul li a{
     .banner-btn{
         display: block;
         margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 3rem;
+        padding: 10px;
     }
     
    .banner-img img{
