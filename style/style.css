@@ -366,7 +366,7 @@ ul li a{
        width: 100%;
     }
     .our-stories-steps{
-        width: 190px;
+        width: 180px;
         /* align-items: center;
         justify-content: center; */ 
         height: 200px;
@@ -379,7 +379,8 @@ ul li a{
         /* align-items: center;
         justify-content: center; */
         gap: 5px;
-        margin-left: 10px;
+        padding: 5px;
+
         
     }
     .four-section img{
@@ -399,7 +400,7 @@ ul li a{
         padding-right: 10px;
     }
     .our-stories{
-        margin-top: 800px;
+        margin-top: 980px;
         width: 100%;
     }
     .stories-title{
