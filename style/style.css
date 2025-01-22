@@ -120,7 +120,7 @@ ul li a{
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 }
 .curriculam-box{
     display: grid;
@@ -177,7 +177,7 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 7.5rem;
 }
 .arrows{
@@ -392,8 +392,7 @@ marquee{
         justify-content: center; */
         gap: 5px;
         padding: 5px;
-
-        
+        margin-left: 10px;    
     }
     .four-section img{
         width: 100%;
@@ -412,8 +411,9 @@ marquee{
         padding-right: 10px;
     }
     .our-stories{
-        margin-top: 980px;
+        margin-top: 1200px;
         width: 100%;
+        height: 750px;
     }
     .stories-title{
         text-align: center;
