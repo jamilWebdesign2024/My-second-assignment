@@ -426,18 +426,24 @@ marquee{
         display: none;
     }
     .stories-item{
-       width: 100%;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        /* margin-right: 60px; */
     }
     .our-stories-steps{
-        width: 180px;
+        width: 170px;
         height: 200px;
         margin-bottom: 15px;
     }
     .four-section{
-        width: 100%;
-        gap: 5px;
+        width: 80%;
+        gap: 20px;
         padding: 5px;
-        margin-left: 10px;    
+        margin-left: 23px;
+
     }
     .four-section img{
         width: 100%;
@@ -465,8 +471,9 @@ marquee{
         
     }
     .planning-card-title{
-        font-size: 9.13px;
+        font-size: 8px;
         padding: 14px 54px 19px 22px;
+        text-align: left;
     }
 
     /* footer section responsive */
