@@ -293,7 +293,61 @@ marquee{
     direction: right;
     
 }
-
+/* footer section */
+.footer-section{
+    background-color: rgba(1, 172, 253, 1);
+    padding: 100px;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.footer-desc{
+    width: 400px;
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 35px;
+    font-weight: 500;
+    text-align: justify;
+}
+.kids-education{
+    align-items: center;
+    font-size: 2.7rem;
+    color: white;
+    font-weight: 700;
+    gap: 10px;
+}
+.kids-education img{
+    width: 100px;
+}
+.footer-ul{
+    display: block;
+}
+.about-school-title{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.footer-ul li{
+    list-style: none;
+    margin-bottom: 1.25rem;
+}
+.footer-ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.keep-in-touch{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.icon-symbol{
+    gap: 12px;
+}
 
 
 
@@ -423,5 +477,35 @@ marquee{
         font-size: 9.13px;
         padding: 14px 54px 19px 22px;
     }
+
+    /* footer section responsive */
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 15px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .footer-desc{
+        width: 330px;
+        color: white;
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-right: 0;
+        font-weight: 500;
+        padding: 5px;
+    }
+    .kids-education img{
+        width: 75px;
+    }
+    .kids-education{
+        /* align-items: center; */
+        font-size: 1.7rem;
+        color: white;
+        font-weight: 700;
+        gap: 10px;
+    }
+ 
       
 }
